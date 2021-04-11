@@ -1,0 +1,11 @@
+nLevel=4;
+wname='haar';
+I=imread('Tile_Image_00000.jpg');% reading the initial image
+I=rgb2gray(I);%change the initial image to grayscale
+pixs=[256;256];
+I=I(160:2300, 740:2880);% Omitting the useless parts of the image borders
+I=imresize(I,pixs');%resize the image to the preferred size
+BG=imopen(I,strel('disk',15)); %Estimating the Value of Background Pixels
+Iunfrm=imsubtract(I,BG); %Create an Image with a Uniform Background
+Iadjust=imadjust(Iunfrm); %Adjusting the contrast-see imadjust for details
+Ires=imresize(Iadjust,pixs'); %Resizing
