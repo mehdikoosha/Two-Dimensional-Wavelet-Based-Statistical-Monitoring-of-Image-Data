@@ -167,8 +167,7 @@ MEDDEV=median(DEV);
 RESULTS(Z,:)=[ARL,STDRL,MEDRL,ADEV,STDDEV,MEDDEV];
 end
 ```
-Results can be found in Tables of Section 4 in the paper.
-It should be noted that comparison is done with two competing methods including Koosha et al. (2017) and Amirkhani and Amiri (2019). The codes of the competing methods can be accessed at the following links:
+Results can be found in Tables of Section 4 of the paper. It should be noted that comparison is done with two competing methods including Koosha et al. (2017) and Amirkhani and Amiri (2019). The codes of the competing methods can be accessed at the following links:
 
 Koosha et al. (2017): 
 https://github.com/mehdikoosha/SPC-image-data-wavelets
