@@ -1,8 +1,8 @@
+# Two Dimensional Wavelet Based Statistical Monitoring of Image Data
+#### Mehdi Koosha, Rassoul Noorossana, Orod Ahmadi
 
-# Project Title
-
-A brief description of what this project does and who it's for
-
+### Abstract
+Advances in imaging technology has paved the grounds to capture and analyze product images from different perspectives in real time. In high volume and highly automated processes, effective methods are required to monitor several quality characteristics of interest. Statistical process monitoring techniques are widely used methods to monitor the stability of processes. Image data could be used for statistical process monitoring. The advantages of applying images in monitoring processes, have led to their increasing use. When images are used, complicated structures of data need to be analyzed. Various methods including data transformation and dimension reduction may be used to cope with these complexities. In this paper, a two dimensional wavelet is applied to images. Using this transformation estimated wavelet coefficients are obtained. To monitor the expected values of these coefficient, a likelihood ratio test is developed. The proposed approach is able to detect out-of-control conditions and estimate change points effectively. This diagnostic information can help practitioners to find the assignable cause(s) of the change and return the process back to the in-control state. One of the advantages of the proposed method compared to other competing methods is that the performance of the method does not depend on the fault location. Simulation studies indicate satisfactory performance of proposed method for detecting out-of-control conditions and change point estimation. The performance of the proposed method is also compared with two existing approach and results indicate superior performance for the proposed method.
 
 ## Deployment
 
