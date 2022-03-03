@@ -173,3 +173,6 @@ Koosha et al. (2017):
 https://github.com/mehdikoosha/SPC-image-data-wavelets
 
 Amirkhani and Amiri (2019): https://github.com/fzdamirkhani/QREI-2019
+
+The permanenet DOI for this repository is [![DOI](https://zenodo.org/badge/355555897.svg)](https://zenodo.org/badge/latestdoi/355555897)
+
