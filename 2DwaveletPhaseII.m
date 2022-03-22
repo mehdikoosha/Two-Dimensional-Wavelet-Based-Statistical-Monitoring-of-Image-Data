@@ -24,11 +24,11 @@ end;
 tetha0=mean(tetha);
 sigma_0=std(tetha);
 %% Phase II
-for m=1:1000
 clear LAMDA Lamda
 Loop=0;
 T=0;
 for Z=[1:10]
+for m=1:1000
 while Loop==0
     T=T+1
     I01=imnoise(I,'gaussian',0,sigma_error^2);
@@ -50,7 +50,7 @@ while Loop==0
                 I01(i,j)=min(I01(i,j),255); %To guarantee that each pixel's intensity is not larger than 255
             end
         end
-    end    
+    end
     tethA_2(T,:)=wavedec2(I01,n_level,name);
     TETHA_2=tethA_2(T,:);
     tetha_2(T,:)= TETHA_2(1:n^2);  
@@ -73,6 +73,7 @@ while Loop==0
             DEV(m)=DEV;
         end
     end
+end
 end
 ARL=mean(RL);
 STDRL=std(RL);
