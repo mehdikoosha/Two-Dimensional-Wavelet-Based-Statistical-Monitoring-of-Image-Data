@@ -108,11 +108,11 @@ SNR=25; %determined signal to noise ratio
 n_level=2; %level of decomposition
 UCL=4.1; %Upper control Limit
 name=haar; %wavelet function type
-for m=1:1000
 clear LAMDA Lamda
 Loop=0;
 T=0;
 for Z=[1:10]
+for m=1:1000
 while Loop==0
     T=T+1
     I01=imnoise(I,'gaussian',0,sigma_error^2);
@@ -157,6 +157,7 @@ while Loop==0
             DEV(m)=DEV;
         end
     end
+end
 end
 ARL=mean(RL);
 STDRL=std(RL);
